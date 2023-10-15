@@ -1,10 +1,5 @@
 import React from 'react';
-
-import { faMobileScreenButton, faGamepad } from '@fortawesome/free-solid-svg-icons';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
 import TechnologyIcon from './TechnologyIcon'
-
-var icons = [faMobileScreenButton, faReact, faMobileScreenButton]
 
 const TechnologyList = (props) =>  (
     <div className="row">

@@ -30,6 +30,16 @@ export function imageFromLogoName(logoName) {
         case 'Firebase':
             path += "firebase-logo.png"
             break;
+        case 'OpenGL':
+            path += "opengl-logo.png"
+            break;
+        case 'Python':
+            path += "python-logo.png"
+            break;
+        case 'Docker':
+            path += "docker-logo.png"
+            break;
+        case 'Database':
         case 'CoreData':
         case 'MySQL':
             path += "database-logo.png";
@@ -48,7 +58,8 @@ export const mobileApps = [
         image: '/images/ren-energy.png',
         tags: ['Swift', 'UIKit', 'REST', 'CoreData', 'Firebase'],
         details: 'https://apps.apple.com/us/app/ren-energy/id1225154751',
-        detailType: 0
+        detailType: 0,
+        professional: true
     },
     {
         title: 'REN Investors',
@@ -56,11 +67,48 @@ export const mobileApps = [
         image: '/images/ren-investors.png',
         tags: ['Swift', 'UIKit', 'REST', 'CoreData', 'Firebase'],
         details: 'https://apps.apple.com/pt/app/ren-investidores/id1068433116',
-        detailType: 0
+        detailType: 0,
+        professional: true
     },
 ];
 
 export const tools = [
+    {
+        title: 'k2ddt (Kotlin 2D Development Tools)',
+        description: "The forth iteration of a toy game engine. Started as a simple 3D engine in C++ and evolved into a collection of tools for 2D, written in Kotlin. I used this project to learn the language as well as modern OpenGL.",
+        image: '/images/2dgt.png',
+        tags: ['Kotlin', 'OpenGL'],
+        details: 'https://github.com/nflsilva/k2ddt',
+        detailType: 2,
+        professional: false
+    },
+    {
+        title: 'yane (Yet Another NES Emulator)',
+        description: "The first emulator I tried to write. This project allowed me to learn about virtual machines and alternative computer architecture. This emulator implementation is not complete.",
+        image: '/images/yane.png',
+        tags: ['C++'],
+        details: 'https://github.com/nflsilva/yane',
+        detailType: 2,
+        professional: false
+    },
+    {
+        title: 'nds-gbabf (Nintendo DS Game Boy Advance Bootleg Flasher)',
+        description: "A Nintendo DS program that flashes some Game Boy Advance chinese bootleg cartridges. This project started as a simple experiment to try to write homebrew software into bootleg cartridges.",
+        image: '/images/nds-gbabf.png',
+        tags: ['C'],
+        details: 'https://github.com/nflsilva/nds-gbabf',
+        detailType: 2,
+        professional: false
+    },
+    {
+        title: 'MilkDiscordBot',
+        description: "A basic discord bot which responds to basic commands and plays music. I self-host this project on a Docker container on a Raspberry Pi device.",
+        image: '/images/discord.png',
+        tags: ['Python', 'Database', 'REST', 'Docker'],
+        details: 'https://github.com/nflsilva/nds-gbabf',
+        detailType: 2,
+        professional: false
+    },
 ];
 
 export const games = [

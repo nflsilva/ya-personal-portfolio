@@ -7,8 +7,10 @@ function ProjectCard(props) {
   let detail = iconFromDetailType(props.type);
   return (
     <div className="card shadow-lg">
-      <span className="position-absolute top-0 start-100 translate-middle p-2">🟥</span>
-      <img className="card-img-top img-fluid" src={ props.image } />
+      { props.professional && 
+        <span className="position-absolute top-0 start-100 translate-middle p-2">🟥</span>
+      }
+      <img className="card-img-top img-fluid" src={ props.image } alt={ props.title } />
       <div className="card-body">
 
         <div className="card-title">{ props.title }</div>
