@@ -24,7 +24,7 @@ function ProjectCard(props) {
           </div>
         </div>
 
-        <div className="mt-4 mb-2">
+        <div className="mt-2">
           <div className="card-title">More details at</div>
           <div className="row">
             <div className="col-4 col-sm-5 col-md-4 col-lg-4 col-xl-4 mb-2">

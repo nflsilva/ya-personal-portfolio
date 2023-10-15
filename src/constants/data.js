@@ -3,8 +3,8 @@ import { faReact, faGithub, faAppStore, faGooglePay } from '@fortawesome/free-br
 
 export function iconFromDetailType(type) {
     return [
-        { name: "App Store", icon: faAppStore, },
-        { name: "Google Play", icon: faGooglePay, },
+        { name: "Apple's App Store", icon: faAppStore, },
+        { name: "Google Play Store", icon: faGooglePay, },
         { name: "GitHub", icon: faGithub, },
     ][type];
 };
