@@ -57,7 +57,7 @@ export const mobileApps = [
         description: "Played a critical role in the development of REN - Energy for iOS. Implemented backend server integration, UI charts and transition animations.",
         image: process.env.PUBLIC_URL + '/images/ren-energy.png',
         tags: ['Swift', 'UIKit', 'REST', 'CoreData', 'Firebase'],
-        details: 'https://apps.apple.com/us/app/ren-energy/id1225154751',
+        details: 'https://apps.apple.com/pt/app/ren-energy/id1225154751',
         detailType: 0,
         professional: true
     },
@@ -93,7 +93,7 @@ export const tools = [
     },
     {
         title: 'nds-gbabf (Nintendo DS Game Boy Advance Bootleg Flasher)',
-        description: "A Nintendo DS program that flashes some Game Boy Advance chinese bootleg cartridges. This project started as a simple experiment to try to write homebrew software into bootleg cartridges.",
+        description: "A Nintendo DS program that flashes Game Boy Advance roms into Game Boy Advance chinese bootleg cartridges. This project started as a simple experiment to try to write homebrew software into bootleg cartridges.",
         image: process.env.PUBLIC_URL + '/images/nds-gbabf.png',
         tags: ['C'],
         details: 'https://github.com/nflsilva/nds-gbabf',
@@ -147,9 +147,10 @@ export const aboutMe =  {
         "Micro-controller Programming"
     ],
     timeline:  [
-        { year: "Sept 2015", event: "Joined REN as Trainee." },
+        { year: "Sept 2015", event: "Joined REN as Trainee. Started developing web applications." },
+        { year: "Apr 2016", event: "Started learning iOS app development." },
         { year: "May 2017", event: "Released and published app 'REN Energy' on Apple's App Store." },
         { year: "Apr 2021", event: "Released and published app 'REN Investors' on Apple's App Store." },
-        { year: "May 2021", event: "Joined OutSystems." },
+        { year: "May 2021", event: "Joined OutSystems. Started working with Android and Cordova plugins." },
     ]
 };
