@@ -1,7 +1,7 @@
 {
   "name": "ya-personal-portfolio",
-  "version": "0.9.0",
-  "homepage": "https://nflsilva.github.io/ya-personal-portfolio",
+  "version": "0.9.1",
+  "homepage": "https://nflsilva.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",

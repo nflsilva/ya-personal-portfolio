@@ -154,3 +154,8 @@ export const aboutMe =  {
         { year: "May 2021", event: "Joined OutSystems. Started working with Android and Cordova plugins." },
     ]
 };
+
+export const footer = {
+    linkedIn: "https://www.linkedin.com/in/nflsilva/",
+    github: "https://github.com/nflsilva",
+};
