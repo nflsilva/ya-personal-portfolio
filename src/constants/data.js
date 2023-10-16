@@ -10,7 +10,7 @@ export function iconFromDetailType(type) {
 };
 
 export function imageFromLogoName(logoName) {
-    var path = "%PUBLIC_URL%/logos/"; 
+    var path = process.env.PUBLIC_URL + "/logos/"; 
     switch(logoName) {
         case 'C':
             path += "c-logo.png";
@@ -55,7 +55,7 @@ export const mobileApps = [
     {
         title: 'REN Energy',
         description: "Played a critical role in the development of REN - Energy for iOS. Implemented backend server integration, UI charts and transition animations.",
-        image: '/images/ren-energy.png',
+        image: process.env.PUBLIC_URL + '/images/ren-energy.png',
         tags: ['Swift', 'UIKit', 'REST', 'CoreData', 'Firebase'],
         details: 'https://apps.apple.com/us/app/ren-energy/id1225154751',
         detailType: 0,
@@ -64,7 +64,7 @@ export const mobileApps = [
     {
         title: 'REN Investors',
         description: "Solo-developed the iOS version of REN - Investors, an app aiming to communicate financial information to investors of all levels.",
-        image: '/images/ren-investors.png',
+        image: process.env.PUBLIC_URL + '/images/ren-investors.png',
         tags: ['Swift', 'UIKit', 'REST', 'CoreData', 'Firebase'],
         details: 'https://apps.apple.com/pt/app/ren-investidores/id1068433116',
         detailType: 0,
@@ -76,7 +76,7 @@ export const tools = [
     {
         title: 'k2ddt (Kotlin 2D Development Tools)',
         description: "The forth iteration of a toy game engine. Started as a simple 3D engine in C++ and evolved into a collection of tools for 2D, written in Kotlin. I used this project to learn the language as well as modern OpenGL.",
-        image: '/images/2dgt.png',
+        image: process.env.PUBLIC_URL + '/images/2dgt.png',
         tags: ['Kotlin', 'OpenGL'],
         details: 'https://github.com/nflsilva/k2ddt',
         detailType: 2,
@@ -85,7 +85,7 @@ export const tools = [
     {
         title: 'yane (Yet Another NES Emulator)',
         description: "The first emulator I tried to write. This project allowed me to learn about virtual machines and alternative computer architecture. This emulator implementation is not complete.",
-        image: '/images/yane.png',
+        image: process.env.PUBLIC_URL + '/images/yane.png',
         tags: ['C++'],
         details: 'https://github.com/nflsilva/yane',
         detailType: 2,
@@ -94,7 +94,7 @@ export const tools = [
     {
         title: 'nds-gbabf (Nintendo DS Game Boy Advance Bootleg Flasher)',
         description: "A Nintendo DS program that flashes some Game Boy Advance chinese bootleg cartridges. This project started as a simple experiment to try to write homebrew software into bootleg cartridges.",
-        image: '/images/nds-gbabf.png',
+        image: process.env.PUBLIC_URL + '/images/nds-gbabf.png',
         tags: ['C'],
         details: 'https://github.com/nflsilva/nds-gbabf',
         detailType: 2,
@@ -103,7 +103,7 @@ export const tools = [
     {
         title: 'MilkDiscordBot',
         description: "A basic discord bot which responds to basic commands and plays music. I self-host this project on a Docker container on a Raspberry Pi device.",
-        image: '/images/discord.png',
+        image: process.env.PUBLIC_URL + '/images/discord.png',
         tags: ['Python', 'Database', 'REST', 'Docker'],
         details: 'https://github.com/nflsilva/nds-gbabf',
         detailType: 2,
@@ -137,7 +137,7 @@ export const technologies = {
 
 export const aboutMe =  {
     description: "Programmer at heart, software engineer by trade. Working on exciting projects helps me feel productive and engaged. To see my projects thrive brings me joy and a sense of accomplishment.",
-    cv: "/files/cv_nflsilva_2023.pdf",
+    cv: process.env.PUBLIC_URL + "/files/cv_nflsilva_2023.pdf",
     interests: [
         "Game engine Development", 
         "Virtual Machines", 
