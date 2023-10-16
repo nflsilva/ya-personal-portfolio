@@ -10,7 +10,7 @@ export function iconFromDetailType(type) {
 };
 
 export function imageFromLogoName(logoName) {
-    var path = "/logos/"; 
+    var path = "%PUBLIC_URL%/logos/"; 
     switch(logoName) {
         case 'C':
             path += "c-logo.png";
