@@ -99,16 +99,7 @@ export const tools = [
         details: 'https://github.com/nflsilva/nds-gbabf',
         detailType: 2,
         professional: false
-    },
-    {
-        title: 'MilkDiscordBot',
-        description: "A basic discord bot which responds to basic commands and plays music. I self-host this project on a Docker container on a Raspberry Pi device.",
-        image: process.env.PUBLIC_URL + '/images/discord.png',
-        tags: ['Python', 'Database', 'REST', 'Docker'],
-        details: 'https://github.com/nflsilva/nds-gbabf',
-        detailType: 2,
-        professional: false
-    },
+    }
 ];
 
 export const games = [
