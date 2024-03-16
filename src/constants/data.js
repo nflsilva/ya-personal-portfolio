@@ -99,6 +99,15 @@ export const tools = [
         details: 'https://github.com/nflsilva/nds-gbabf',
         detailType: 2,
         professional: false
+    },
+    {
+        title: 's3v  (Simple 3D Viewer)',
+        description: "A very simple 3D mesh renderer. This is an on going learning project and thus it is implemented with very minimal external dependencies. It uses OpenGL and implements very limited features (yet).",
+        image: process.env.PUBLIC_URL + '/images/s3v.png',
+        tags: ['C', 'OpenGL'],
+        details: 'https://github.com/nflsilva/simple-3d-viewer',
+        detailType: 2,
+        professional: false
     }
 ];
 
